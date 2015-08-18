@@ -1,0 +1,15 @@
+<h1>Tasks#index</h1>
+
+
+<% @tasks.each do |task| %>
+  <%= "#{task.name} - status : #{task.status}" %>
+  <%=link_to "More", task %>
+  <br>
+<% end %>
+
+
+
+
+
+
+
